@@ -6,12 +6,12 @@ console.log('Anni:', age);
 
 const prezzoalkm = 0.21;
 
-prezzofinale=km*prezzoalkm
+let prezzofinale=km*prezzoalkm
 console.log('prezzo intero:', prezzofinale)
 
 
 //CONDIZIONI
-if (age < 18) {
+if (age <= 18) {
     prezzofinale=prezzofinale * 0.8;
     console.log ('Prezzo Scontato Under 18:', prezzofinale);
 }
